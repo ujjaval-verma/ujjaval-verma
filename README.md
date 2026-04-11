@@ -6,13 +6,14 @@ with macOS native integration, Rails web apps, and AI/LLM pipelines.
 
 ## Stack
 
-**Backend:** Go · Ruby on Rails · Python  
-**Frontend / Desktop:** TypeScript · Electron · Stimulus · Hotwire  
-**AI / LLM:** Gemini API · Claude API · SSE streaming · vision pipelines  
-**Infrastructure:** GCP (Pub/Sub, Firestore, Cloud Run) · Docker · Kamal · GitHub Actions  
-**Real-time:** Turbo Streams · Firebase RTDB · WebSockets · Matrix protocol  
-**Security:** TOTP/MFA · OAuth2 · constant-time auth · sandboxed IPC  
-**Testing:** RSpec · Go table-driven tests · Vitest  
+**Languages:** Go · Ruby · Python · Java · TypeScript · JavaScript · C#  
+**Backend:** Ruby on Rails · Spring Boot · Dropwizard · Express.js · Flask  
+**Frontend:** React · Next.js · Tailwind CSS · Stimulus · Hotwire · Backbone.js  
+**AI / LLMs:** Claude · OpenAI · Agentic AI · MCP · RAG · Context Engineering  
+**Cloud & Infra:** AWS · GCP · Azure · Docker · Kubernetes · Terraform · Apache Kafka · Firebase  
+**Databases:** PostgreSQL · MySQL · Redis · MongoDB · DynamoDB · Elasticsearch · HBase  
+**Payments:** Stripe API · Finch Connect · NPCI BBPS  
+**Testing:** RSpec · Go table-driven tests · JUnit · Mockito  
 
 ## Things I care about in code
 
