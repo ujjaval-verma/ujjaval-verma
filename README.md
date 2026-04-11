@@ -25,8 +25,3 @@ with macOS native integration, Rails web apps, and AI/LLM pipelines.
 ## Find me
 
 [LinkedIn](https://linkedin.com/in/ujjavalverma) · [Toptal Profile](https://www.toptal.com/resume/ujjaval-verma)
-
----
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ujjaval-verma&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00d4ff)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ujjaval-verma&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00d4ff)
