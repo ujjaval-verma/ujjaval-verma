@@ -3,6 +3,7 @@
 Full-stack engineer at [Toptal](https://www.toptal.com/resume/ujjaval-verma), based in Toronto.
 I build production systems across the stack — distributed Go services, Electron desktop apps
 with macOS native integration, Rails web apps, and AI/LLM pipelines.
+Lately I've been shipping open-source agentic-AI projects that hold to the same production bar.
 
 ## Stack
 
@@ -21,6 +22,41 @@ with macOS native integration, Rails web apps, and AI/LLM pipelines.
 - Security as a first-class concern, not a checkbox  
 - Documentation as code — architecture docs committed alongside the system they describe  
 - Tests that survive refactors  
+
+## Featured projects
+
+Two recent open-source projects where I put the above into practice.
+
+### ▸ [slide-ai](https://github.com/ujjaval-verma/slide-ai) — *Deck-as-code for agents*
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ujjaval-verma/slide-ai/main/docs/assets/editor-live.gif" alt="Editing deck source on the left; the slide recompiles live on the right" width="760"/>
+</div>
+
+Agents author technical slides in a Markdown/YAML DSL over HTTP; the platform
+compiles them through LaTeX Beamer (Tectonic) into validated PDFs with
+machine-readable diagnostics, so agents self-correct.
+&nbsp;`TypeScript` · `Fastify` · `React` · `LaTeX`
+
+Demonstrates docs-as-code (a design record and dated ADRs committed alongside
+the system), a clean one-direction architecture, and diagnostics that tell a
+fixable layout error apart from a hard failure.
+
+### ▸ [agentic-cab-rides](https://github.com/ujjaval-verma/agentic-cab-rides) — *An AI agent that books rides end-to-end*
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ujjaval-verma/agentic-cab-rides/main/docs/assets/demo.gif" alt="Booking a ride end-to-end with the agent" width="760"/>
+</div>
+
+Native Anthropic SDK tool use (no LangChain) over a swappable marketplace
+adapter — swapping Uber for Lyft is a new adapter; swapping for a non-ride
+marketplace is a new intent variant.
+&nbsp;`Python` · `FastAPI` · `Pydantic v2` · `Anthropic SDK`
+
+Demonstrates security as a first-class concern — structural confirmation gates
+that can't self-approve and fingerprint-verified drafts — and correct
+distributed semantics via a replayable four-phase action log
+(requested → verified → executed → outcome).
 
 ## Find me
 
