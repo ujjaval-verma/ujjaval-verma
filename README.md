@@ -44,22 +44,23 @@ the system), a strictly one-direction pipeline (source → compile → validate,
 back-edges), and diagnostics that tell a fixable layout error apart from a hard
 failure.
 
-### ▸ [agentic-cab-rides](https://github.com/ujjaval-verma/agentic-cab-rides) — *A prototype AI agent that books rides end-to-end*
+### ▸ [skills](https://github.com/ujjaval-verma/skills) — *A composable harness of reusable, repo-agnostic AgentSkills*
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ujjaval-verma/agentic-cab-rides/main/docs/assets/demo.gif" alt="Booking a ride end-to-end with the agent" width="760"/>
+  <img src="https://raw.githubusercontent.com/ujjaval-verma/skills/main/docs/assets/social-card.jpg" alt="Skills harness: ship one slice, ship it right" width="760"/>
 </div>
 
-Native Anthropic SDK tool use (no LangChain) over a swappable marketplace
-adapter — swapping Uber for Lyft is a new adapter; swapping for a non-ride
-marketplace is a new intent variant.
+Single-file Markdown playbooks an LLM coding agent loads on demand — each encodes
+a workflow (when to invoke it, what discipline to apply, what artifact to
+produce). They layer rather than overlap, so an agent picks the highest layer
+that fits and delegates downward.
 
-**Stack:** `Python` · `FastAPI` · `Pydantic v2` · `Anthropic SDK`
+**Stack:** `Markdown` · `AgentSkills` · `SKILL.md`
 
-Demonstrates security as a first-class concern — structural confirmation gates
-that can't self-approve and fingerprint-verified drafts — and correct
-distributed semantics via a replayable four-phase action log
-(requested → verified → executed → outcome).
+Demonstrates discipline that survives context resets — the playbooks persist
+where an agent's working memory does not — organised across engineering,
+product, and productivity categories with composition rules that keep skills
+from colliding.
 
 ## Find me
 
