@@ -9,7 +9,7 @@ I own the delivery side too: CI/CD and GitOps (ArgoCD, Helm, Kustomize, Terrafor
 multi-region active-active deployments, and the observability (Prometheus, Grafana, Datadog) that keeps
 them honest — shipped end-to-end through to launch.
 
-And I lead the engineers who build alongside me without ever stepping away from the code. Rigour and human
+I lead the engineers who build alongside me without ever stepping away from the code. Rigour and human
 investment aren't a trade-off: I roll up my sleeves, lead by example, and grow the people I mentor and
 manage. As a fractional CTO, technical lead, or founding engineer, I close the gap between ambitious product
 vision and production-grade execution, and I measure my impact in systems that outlast the sprint.
