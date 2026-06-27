@@ -1,11 +1,18 @@
 # Ujjaval Verma
 
 Full-stack engineer at [Toptal](https://www.toptal.com/resume/ujjaval-verma), based in Toronto.
-14+ years building production systems across the stack — distributed Go services, Electron desktop
-apps with macOS native integration, Rails web apps, and AI/LLM pipelines.
+I build production systems across the stack — distributed Go services, Rails and Node web apps,
+Electron desktop apps with macOS native integration, Kubernetes-native platforms, and AI/LLM pipelines.
+Most of that work has been in payments and platform infrastructure at scale.
 
-Most of that time has been in payments and platform infrastructure at scale. Lately I've been bringing
-the same engineering discipline to open-source AI projects — documented, tested, and architected to survive change.
+I own the delivery side too: CI/CD and GitOps (ArgoCD, Helm, Kustomize, Terraform/OpenTofu),
+multi-region active-active deployments, and the observability (Prometheus, Grafana, Datadog) that keeps
+them honest — shipped end-to-end through to launch.
+
+And I lead the engineers who build alongside me without ever stepping away from the code. Rigour and human
+investment aren't a trade-off: I roll up my sleeves, lead by example, and grow the people I mentor and
+manage. As a fractional CTO, technical lead, or founding engineer, I close the gap between ambitious product
+vision and production-grade execution, and I measure my impact in systems that outlast the sprint.
 
 ## Selected impact
 
@@ -21,7 +28,9 @@ the same engineering discipline to open-source AI projects — documented, teste
 **Backend:** Ruby on Rails · Spring Boot · Express.js · Fastify  
 **Frontend:** React · Next.js · Tailwind CSS  
 **AI / LLMs:** Claude · MCP · RAG  
-**Infra & data:** AWS · Docker · Kubernetes · Terraform · Kafka · PostgreSQL · MySQL · Redis · Elasticsearch  
+**Platform & DevOps:** Kubernetes · ArgoCD · Helm · Terraform · Docker · AWS · GCP · GitHub Actions  
+**Observability:** Prometheus · Grafana · Datadog · Sentry  
+**Data:** PostgreSQL · MySQL · Redis · Elasticsearch · Kafka  
 **Payments:** Stripe · Finch Connect · NPCI BBPS  
 
 ## Things I care about in code
@@ -29,11 +38,12 @@ the same engineering discipline to open-source AI projects — documented, teste
 - Correct distributed systems semantics — state machines that distinguish transient failures from terminal ones  
 - Security as a design constraint from the start, not an audit afterthought — most of my work has handled payments and PII  
 - Documentation as code — architecture docs committed alongside the system they describe  
+- Systems built to be operated — GitOps, health checks, and rollback paths, not just a green test suite  
 - Tests that survive refactors  
 
 ## Featured projects
 
-Three recent open-source projects where I put the above into practice.
+Three recent open-source projects — documented, tested, and architected to survive change — where I put the above into practice.
 
 ### ▸ [agentic-cab-rides](https://github.com/ujjaval-verma/agentic-cab-rides) — *A booking agent whose tools can't self-approve*
 
