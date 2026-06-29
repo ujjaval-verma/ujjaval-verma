@@ -1,14 +1,12 @@
 # Ujjaval Verma
 
-Full-stack engineer in Toronto, focused on back-end and platform. I build distributed services —
-mostly Go — and own the delivery around them: CI/CD, Kubernetes, and the observability that keeps
-them running. Lately, a lot of agent and LLM tooling.
+Full-stack engineer in Toronto, focused on back-end and platform. I build distributed services and own the delivery around them: CI/CD, Kubernetes, and the observability that keeps them running. Lately, a lot of agent and LLM tooling.
 
 ## Things I care about in code
 
-- Correct distributed-systems semantics — state machines that tell transient failures from terminal ones
-- Security designed in from the start — most of my work handles payments and PII
-- Systems built to be operated — GitOps, health checks, and rollback paths
+- Correct distributed-systems semantics: state machines that tell transient failures from terminal ones
+- Security designed in from the start: most of my work handles payments and PII
+- Systems built to be operated: GitOps, health checks, and rollback paths
 
 ## Recent projects
 
