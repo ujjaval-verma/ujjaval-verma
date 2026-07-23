@@ -16,4 +16,4 @@ Full-stack engineer in Toronto, focused on back-end and platform. I build distri
 
 ## Find me
 
-[LinkedIn](https://linkedin.com/in/ujjavalverma) · [Toptal Profile](https://www.toptal.com/resume/ujjaval-verma)
+[LinkedIn](https://linkedin.com/in/ujjavalverma) · [Ujjaval.ca](https://ujjaval.ca)
