@@ -10,7 +10,6 @@ Full-stack engineer in Toronto, focused on back-end and platform. I build distri
 
 ## Recent projects
 
-- **[agentic-cab-rides](https://github.com/ujjaval-verma/agentic-cab-rides)** — *A booking agent whose tools can't self-approve.* `Python` · `FastAPI` · `Anthropic SDK`
 - **[slide-ai](https://github.com/ujjaval-verma/slide-ai)** — *Deck-as-code for agents.* `TypeScript` · `Fastify` · `React` · `LaTeX`
 - **[skills](https://github.com/ujjaval-verma/skills)** — *Markdown playbooks an agent loads on demand.* `Markdown` · `SKILL.md`
 
