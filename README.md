@@ -2,7 +2,7 @@
 
 I own the engineering side of taking a product from demo to a platform the business can run on. That covers the architecture and the vendor integrations underneath it. It also covers the team, which I mentor and guide so it keeps shipping.
 
-I work best in highly regulated domains, on small teams. Small enough to act with high agency and ship with engineering rigour and velocity.
+My deepest experience is in regulated domains including fintech, payments, healthcare and insurance. I work best work on small teams that act with high agency and ship with engineering rigour and velocity.
 
 ## Shipped and running
 
